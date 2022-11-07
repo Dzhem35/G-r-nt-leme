@@ -1,1 +1,3 @@
-![images](https://user-images.githubusercontent.com/64707331/200323045-28d66fc2-057f-4562-8417-f54d5a9671c4.jpg)
+GÖRÜNTÜ İŞLEMEYE GİRİŞ
+
+![digital-image-processing-1](https://user-images.githubusercontent.com/64707331/200323239-59e64a32-3b52-4384-b6fe-37cdbd98bc23.jpg)
