@@ -19,6 +19,13 @@ img8=img/(255/8)
 img16=img/(255/16)
 img24=img/(255/24)
 
+cv2.putText(img8, "B={8}", (10, 30),
+		cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 0, 0), 3)
+cv2.putText(img16, "B={16}", (10, 30),
+		cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 0, 0), 3)
+cv2.putText(img24, "B={24}", (10, 30),
+		cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 0, 0), 3)
+
 cv2_imshow(np.hstack((img,img8,img16,img24)))
 
 plt_org=plt.hist(img.ravel(),256,[0,256]);
